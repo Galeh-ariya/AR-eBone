@@ -35,4 +35,9 @@ public class Human : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("MainMenuScene");
     }
+
+    public void HumanBone()
+    {
+        SceneManager.LoadSceneAsync("HumanBoneScene");
+    }
 }
